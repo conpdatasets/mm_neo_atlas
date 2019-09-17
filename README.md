@@ -28,6 +28,8 @@ This dataset contains the following files and links:
 
 # Dorsal and lateral cortex replications
 
+All of these are links.
+
 | | |
 |-|-|
 |BAM files with accompanying indexes|dc2.(A-F).bam, dc2.(A-F).bam.bai, lc.(A-F).bam, lc.(A-F).bam.bai|
