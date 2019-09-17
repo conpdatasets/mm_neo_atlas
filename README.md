@@ -32,11 +32,12 @@ All of these are links.
 
 | | |
 |-|-|
+|Raw read FASTQ files|dc2_fastqs.tar.gz(25 GB), lc_fastqs.tar.gz(17 Gb)|
 |BAM files with accompanying indexes|dc2.(A-F).bam, dc2.(A-F).bam.bai, lc.(A-F).bam, lc.(A-F).bam.bai|
 |BigWig files for viewing in Ensembl browser|dc2.(A-F).bw, lc.(A-F).bw|
 |FPKM values of genes and transcripts with confidence intervals|dc2_fpkms.tar.gz, lc_fpkms.tar.gz|
 |Layer enrichment predicted probabilities|dc2_probs.zip. lc_probs.zip|
-|Functional terms with contibuting genes and *p*-values|dc2_functional.zip, lc_functional.zip|
+|Functional terms with contributing genes and *p*-values|dc2_functional.zip, lc_functional.zip|
 |Genes sorted by similarity in predicted laminar patterning|dc2_lc_compare.tsv|
 
 
