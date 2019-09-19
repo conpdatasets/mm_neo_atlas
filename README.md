@@ -26,7 +26,7 @@ This dataset contains the following files and links:
 |Functional differences between patterned and unpatterned genes|significant_patt_vs_unpatt.zip|
  
 
-# Dorsal and lateral cortex replications
+# Dorsal (dc2) and lateral (lc) cortex replications
 
 All of these are links.
 
