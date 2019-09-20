@@ -43,10 +43,10 @@ All of these are links.
 
 # Other links for this dataset
 
-[Interactive query webpage](http://genserv.anat.ox.ac.uk/layers)
-[Gene Expression Omnibus page for this dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27243)
-[UCSC Genome Browser showing normalised coverage of all reads](http://genome.ucsc.edu/cgi-bin/hgTracks?hgS_doOtherUser=submit&hgS_otherUserName=Grantbelgard&hgS_otherUserSessionName=mouse_layers_all)
-[UCSC Genome Browser showing uniquely mapping reads](http://genome.ucsc.edu/cgi-bin/hgTracks?hgS_doOtherUser=submit&hgS_otherUserName=Grantbelgard&hgS_otherUserSessionName=mouse_layers_unique)
+* [Interactive query webpage](http://genserv.anat.ox.ac.uk/layers)
+* [Gene Expression Omnibus page for this dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27243)
+* [UCSC Genome Browser showing normalised coverage of all reads](http://genome.ucsc.edu/cgi-bin/hgTracks?hgS_doOtherUser=submit&hgS_otherUserName=Grantbelgard&hgS_otherUserSessionName=mouse_layers_all)
+* [UCSC Genome Browser showing uniquely mapping reads](http://genome.ucsc.edu/cgi-bin/hgTracks?hgS_doOtherUser=submit&hgS_otherUserName=Grantbelgard&hgS_otherUserSessionName=mouse_layers_unique)
 
 This page adapted from http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/
 
