@@ -50,3 +50,5 @@ All of these are links.
 
 This page adapted from http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/
 
+<a href="https://doi.org/10.5281/zenodo.3465802"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3465802.svg" alt="DOI"></a>
+
