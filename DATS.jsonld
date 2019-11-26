@@ -1,33 +1,35 @@
 {
-	"@context": {
-		"sdo": "https://schema.org/",
-		"Dataset": "sdo:Dataset",
-		"title": {
-      			"@id": "sdo:name",
-      			"@type": "sdo:Text"
-    		},
-    		"description": {
-      			"@id": "sdo:description",
-      			"@type": "sdo:Text"
-    		},
-    		"distributions": {
-		      "@id": "sdo:distribution",
-		      "@type": "sdo:DataDownload"
-	 	},
-	    	"primaryPublications": "sdo:citation",
-    		"citations": "sdo:citation",
-	    	"producedBy": "sdo:producer",
-    		"creators": "sdo:creator",
-	    	"licenses": "sdo:license",
-    		"isAbout": "sdo:about",
-	    	"hasPart": "sdo:hasPart",
-    		"acknowledges": "sdo:funder",
-	    	"keywords": "sdo:keywords"
-	},
-	"@type": "Dataset",
+	"@context": 
+		[ 
+			{
+				"sdo": "https://schema.org/",
+				"Dataset": "sdo:Dataset",
+				"title": {
+					"@id": "sdo:name",
+					"@type": "sdo:Text"
+				},
+				"description": {
+					"@id": "sdo:description",
+					"@type": "sdo:Text"
+				},
+				"distributions": {
+					"@id": "sdo:distribution",
+					"@type": "sdo:DataDownload"
+				},
+				"primaryPublications": "sdo:citation",
+				"citations": "sdo:citation",
+				"producedBy": "sdo:producer",
+				"creators": "sdo:creator",
+				"licenses": "sdo:license",
+				"isAbout": "sdo:about",
+				"hasPart": "sdo:hasPart",
+				"acknowledges": "sdo:funder",
+				"keywords": "sdo:keywords",
+				"dates": "sdo:date",
+				"storedIn": "sdo:url"
+			}
+		],
 	"identifier": {
-                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
-                "@type": "Identifier",
 		"identifier": "10.5281/zenodo.3465802",
 		"identifierSource": "DOI"
 	},
@@ -42,15 +44,13 @@
 	],
 	"creators": [
 		{
-			"@id": "https://w3id.org/dats/schema/person_schema.json",
-			"@type": "Person",
+			"@id": "https://w3id.org/dats/schema/organization_schema.json",
+			"@type": "creators",
 			"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 		}
 	],
 	"types": [
 		{
-			"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-			"@type": "Annotation",
 			"information": {
 				"value": "transcriptomics"
 			}
@@ -63,11 +63,7 @@
 	},
 	"primaryPublications" : [
 		{
-			"@id": "https://w3id.org/dats/schema/publication_schema.json",
-		        "@type": "Publication",
 			"identifier": {
-                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
-                		"@type": "Identifier",
 				"identifier": "https://dx.doi.org/10.1016/j.neuron.2011.06.039"
 			},
 			"title": "A Transcriptomic Atlas of Mouse Neocortical Layers",
@@ -76,6 +72,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"Primary reference publication date"
 					},
 					"date": "2011-08-25 00:00:00"
@@ -95,8 +93,6 @@
 			"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 			"@type": "BiologicalEntity",
 			"identifier": {
-		                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
-        		        "@type": "Identifier",
 				"identifier": "10090",
 				"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
 			},
@@ -108,6 +104,8 @@
 			"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 			"@type": "Date",
 			"type": {
+				"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+				"@type": "Annotation",
 				"value":"CONP DATS JSON fileset creation date"
 			},
 			"date": "2019-09-19 10:48:24"
@@ -125,15 +123,13 @@
 			"title":"Cell types and imprinting documentation",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "PDF file"
 					}
@@ -148,15 +144,13 @@
 			"title":"Raw sequence reads",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Sequence reads in FASTA format"
 					}
@@ -171,15 +165,13 @@
 			"title":"Layer enrichment probabilities (Ensembl genes)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Excel spreadsheet"
 					}
@@ -194,15 +186,13 @@
 			"title":"Layer enrichment probabilities (Ensembl transcripts)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Excel spreadsheet"
 					}
@@ -217,15 +207,13 @@
 			"title":"Layer enrichment probabilities (de novo cufflinks-built genes)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Excel spreadsheet"
 					}
@@ -240,15 +228,13 @@
 			"title":"Layer enrichment probabilities (de novo cufflinks-built transcripts)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Excel spreadsheet"
 					}
@@ -263,15 +249,13 @@
 			"title":"FPKM files",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Zip file containing excel spreadsheets"
 					}
@@ -286,15 +270,13 @@
 			"title":"de novo gene models",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Zip file containing gene models in GTF format"
 					}
@@ -309,15 +291,13 @@
 			"title":"lincRNA gene models",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Zip file containing gene models in GTF format"
 					}
@@ -332,15 +312,13 @@
 			"title":"Functional enrichments for sets of genes predicted in layers",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Zip file containing excel spreadsheet"
 					}
@@ -355,15 +333,13 @@
 			"title":"Functional differences between patterned and unpatterned genes",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Zip file containing excel spreadsheet"
 					}
@@ -378,15 +354,13 @@
 			"title":"Raw sequence reads (dorsal)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Sequence reads in FASTQ format"
 					}
@@ -401,15 +375,13 @@
 			"title":"Raw sequence reads (lateral)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "Sequence reads in FASTQ format"
 					}
@@ -424,15 +396,13 @@
 			"title":"BAM file (dorsal A)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -447,15 +417,13 @@
 			"title":"BAM file index (dorsal A)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -470,15 +438,13 @@
 			"title":"BAM file (dorsal B)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -493,15 +459,13 @@
 			"title":"BAM file index (dorsal B)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -516,15 +480,13 @@
 			"title":"BAM file (dorsal C)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -539,15 +501,13 @@
 			"title":"BAM file index (dorsal C)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -562,15 +522,13 @@
 			"title":"BAM file (dorsal D)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -585,15 +543,13 @@
 			"title":"BAM file index (dorsal D)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -608,15 +564,13 @@
 			"title":"BAM file (dorsal E)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -631,15 +585,13 @@
 			"title":"BAM file index (dorsal E)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -653,15 +605,13 @@
 			"title":"BAM file (dorsal F)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -676,15 +626,13 @@
 			"title":"BAM file index (dorsal F)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -699,15 +647,13 @@
 			"title":"BAM file (lateral A)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -722,15 +668,13 @@
 			"title":"BAM file index (lateral A)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -745,15 +689,13 @@
 			"title":"BAM file (lateral B)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -768,15 +710,13 @@
 			"title":"BAM file index (lateral B)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -791,15 +731,13 @@
 			"title":"BAM file (lateral C)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -814,15 +752,13 @@
 			"title":"BAM file index (lateral C)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -837,15 +773,13 @@
 			"title":"BAM file (lateral D)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -860,15 +794,13 @@
 			"title":"BAM file index (lateral D)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -883,15 +815,13 @@
 			"title":"BAM file (lateral E)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -906,15 +836,13 @@
 			"title":"BAM file index (lateral E)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -928,15 +856,13 @@
 			"title":"BAM file (lateral F)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file"
 					}
@@ -951,15 +877,13 @@
 			"title":"BAM file index (lateral F)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BAM file index"
 					}
@@ -974,15 +898,13 @@
 			"title":"BigWig file (dorsal A)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -997,15 +919,13 @@
 			"title":"BigWig file (dorsal B)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -1020,15 +940,13 @@
 			"title":"BigWig file (dorsal C)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -1043,15 +961,13 @@
 			"title":"BigWig file (dorsal D)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -1066,15 +982,13 @@
 			"title":"BigWig file (dorsal E)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -1089,15 +1003,13 @@
 			"title":"BigWig file (dorsal F)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -1112,15 +1024,13 @@
 			"title":"BigWig file (lateral A)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -1135,15 +1045,13 @@
 			"title":"BigWig file (lateral B)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -1158,15 +1066,13 @@
 			"title":"BigWig file (lateral C)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -1181,15 +1087,13 @@
 			"title":"BigWig file (lateral D)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -1204,15 +1108,13 @@
 			"title":"BigWig file (lateral E)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -1227,15 +1129,13 @@
 			"title":"BigWig file (lateral F)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "BigWig file"
 					}
@@ -1250,15 +1150,13 @@
 			"title":"FPKM files (dorsal)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "tar archive containing excel spreadsheet"
 					}
@@ -1273,15 +1171,13 @@
 			"title":"FPKM files (lateral)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "tar archive containing excel spreadsheet"
 					}
@@ -1296,15 +1192,13 @@
 			"title":"Layer enrichment predicted probabilities (dorsal)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "ZIP file containing excel spreadsheet"
 					}
@@ -1319,15 +1213,13 @@
 			"title":"Layer enrichment predicted probabilities (lateral)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "ZIP file containing excel spreadsheet"
 					}
@@ -1342,15 +1234,13 @@
 			"title":"Functional terms (dorsal)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "ZIP file containing excel spreadsheet"
 					}
@@ -1365,15 +1255,13 @@
 			"title":"Functional terms (lateral)",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "ZIP file containing excel spreadsheet"
 					}
@@ -1388,15 +1276,13 @@
 			"title":"Genes sorted by similarity",
 			"creators": [
 				{
-					"@id": "https://w3id.org/dats/schema/person_schema.json",
-					"@type": "Person",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "creators",
 					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "TSV file"
 					}
