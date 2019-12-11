@@ -65,6 +65,24 @@
 			"date": "2019-09-19 10:48:24"
 		}
 	],
+	"distributions": [
+	        {
+			"formats": [
+				"FASTQ",
+				"GTF",
+				"tsv",
+				"BAM",
+				"BigWig"
+            		],
+			"size" : "140",
+		        "unit" : {
+            			"value": "GB"
+		        },
+			"access": {
+				"landingPage": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers"
+			}
+		}
+	],
 	"keywords": [
 		{
 			"value" : "transcriptomics"
@@ -1141,6 +1159,14 @@
 			"values": [
 				{
 					"value": "Jennifer Tremblay-Mercier, Research Co-ordinator, jennifer.tremblay-mercier@douglas.mcgill.ca, 514-761-6131 #3329"
+				}
+			]
+		},
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "53"
 				}
 			]
 		}
