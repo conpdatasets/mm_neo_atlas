@@ -74,7 +74,7 @@
 				"BAM",
 				"BigWig"
             		],
-			"size" : "140",
+			"size" : 140,
 		        "unit" : {
             			"value": "GB"
 		        },
