@@ -1161,6 +1161,14 @@
 					"value": "53"
 				}
 			]
+		},
+		{
+			"category": "CONP_status",
+			"values": [
+				{
+					"value": "external"
+				}
+			]
 		}
 	]
 }
