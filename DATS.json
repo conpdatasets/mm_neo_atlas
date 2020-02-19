@@ -1,1 +1,1174 @@
-.git/annex/objects/Wg/mg/MD5E-s34324--0d6d6dd4dddfb248de45a689e15a98a9.json/MD5E-s34324--0d6d6dd4dddfb248de45a689e15a98a9.json
+{
+	"identifier": {
+		"identifier": "10.5281/zenodo.3465802",
+		"identifierSource": "DOI"
+	},
+	"version": "1.0",
+	"privacy": "public open",
+	"licenses": [
+		{
+			"name": "BY-NC-SA"
+		}
+	],
+	"creators": [
+		{
+			"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+		}
+	],
+	"types": [
+		{
+			"information": {
+				"value": "transcriptomics"
+			}
+		}
+	],
+	"title": "A Transcriptomic Atlas of Mouse Neocortical Layers",
+	"description": "In the mammalian cortex, neurons and glia form a patterned structure across six layers whose complex cytoarchitectonic arrangement is likely to contribute to cognition. This dataset contains transcriptomes from layers 1-6b of different areas (primary and secondary) of the adult (postnatal day 56) mouse somatosensory cortex. A total of 5,835 protein-coding genes and 66 noncoding RNA loci are differentially expressed (\"patterned\") across the layers. Layers 2-6b are each associated with specific functional and disease annotations that provide insights into their biological roles. This dataset extends currently available resources by providing quantitative expression levels, by being genome-wide, by including novel loci, and by identifying candidate alternatively spliced transcripts that are differentially expressed across layers.",
+	"storedIn": {
+		"name" : "Department of Anatomy, Oxford University"
+	},
+	"primaryPublications" : [
+		{
+			"identifier": {
+				"identifier": "https://dx.doi.org/10.1016/j.neuron.2011.06.039"
+			},
+			"title": "A Transcriptomic Atlas of Mouse Neocortical Layers",
+			"dates": [
+				{
+					"type": {
+						"value":"Primary reference publication date"
+					},
+					"date": "2011-08-25 00:00:00"
+				}
+			],
+			"authors": [
+				{
+				"name":"T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			]
+		}
+	],
+	"isAbout": [
+		{
+			"identifier": {
+				"identifier": "10090",
+				"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+			},
+			"name":"Mus musculus"
+		}
+	],
+	"dates": [
+		{
+			"type": {
+				"value":"CONP DATS JSON fileset creation date"
+			},
+			"date": "2019-09-19 10:48:24"
+		}
+	],
+	"distributions": [
+	        {
+			"formats": [
+				"FASTQ",
+				"GTF",
+				"tsv",
+				"BAM",
+				"BigWig"
+            		],
+			"size" : 140,
+		        "unit" : {
+            			"value": "GB"
+		        },
+			"access": {
+				"landingPage": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers"
+			}
+		}
+	],
+	"keywords": [
+		{
+			"value" : "transcriptomics"
+		}
+	],
+	"hasPart": [
+		{
+			"title":"Cell types and imprinting documentation",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "PDF file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/types_and_imprinting.pdf",
+				"description": "PDF containing documentation of experimental methods"
+			}
+		},
+		{
+			"title":"Raw sequence reads",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Sequence reads in FASTA format"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/fastqs.tar.gz",
+				"description": "Raw sequence reads (46.6 Gb)"
+			}
+		},
+		{
+			"title":"Layer enrichment probabilities (Ensembl genes)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/ens_genes_probs.xlsx",
+				"description": "Excel spreadsheet containing layer enrichment probabilities for Ensembl genes"
+			}
+		},
+		{
+			"title":"Layer enrichment probabilities (Ensembl transcripts)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/ens_trans_probs.xlsx",
+				"description": "Excel spreadsheet containing layer enrichment probabilities for Ensembl transcripts"
+			}
+		},
+		{
+			"title":"Layer enrichment probabilities (de novo cufflinks-built genes)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/cuff_genes_probs.xlsx",
+				"description": "Excel spreadsheet containing layer enrichment probabilities for de novo cufflinks-built genes"
+			}
+		},
+		{
+			"title":"Layer enrichment probabilities (de novo cufflinks-built transcripts)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/cuff_trans_probs.xlsx",
+				"description": "Excel spreadsheet containing layer enrichment probabilities for de novo cufflinks-built transcripts"
+			}
+		},
+		{
+			"title":"FPKM files",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Zip file containing excel spreadsheets"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/fpkms.zip",
+				"description": "FPKMs across all samples for all genes and transcripts"
+			}
+		},
+		{
+			"title":"de novo gene models",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Zip file containing gene models in GTF format"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/gene_models.zip",
+				"description": "de novo gene models in GTF format"
+			}
+		},
+		{
+			"title":"lincRNA gene models",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Zip file containing gene models in GTF format"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lincrna_models.zip",
+				"description": "lincRNA gene models in GTF format"
+			}
+		},
+		{
+			"title":"Functional enrichments for sets of genes predicted in layers",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Zip file containing excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/significant_in_layers.zip",
+				"description": "Functional enrichments for sets of genes predicted in layers"
+			}
+		},
+		{
+			"title":"Functional differences between patterned and unpatterned genes",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Zip file containing excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/significant_patt_vs_unpatt.zip",
+				"description": "Functional differences between patterned and unpatterned genes"
+			}
+		},
+		{
+			"title":"Raw sequence reads (dorsal)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Sequence reads in FASTQ format"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2_fastqs.tar.gz",
+				"description": "Raw sequence reads (dorsal, 25 Gb)"
+			}
+		},
+		{
+			"title":"Raw sequence reads (lateral)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "Sequence reads in FASTQ format"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc_fastqs.tar.gz",
+				"description": "Raw sequence reads (lateral, 17 Gb)"
+			}
+		},
+		{
+			"title":"BAM file (dorsal A)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.A.bam",
+				"description": "BAM file (dorsal A)"
+			}
+		},
+		{
+			"title":"BAM file index (dorsal A)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.A.bam.bai",
+				"description": "BAM file index(dorsal A)"
+			}
+		},
+		{
+			"title":"BAM file (dorsal B)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.B.bam",
+				"description": "BAM file (dorsal B)"
+			}
+		},
+		{
+			"title":"BAM file index (dorsal B)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.B.bam.bai",
+				"description": "BAM file index(dorsal B)"
+			}
+		},
+		{
+			"title":"BAM file (dorsal C)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.C.bam",
+				"description": "BAM file (dorsal C)"
+			}
+		},
+		{
+			"title":"BAM file index (dorsal C)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.C.bam.bai",
+				"description": "BAM file index(dorsal C)"
+			}
+		},
+		{
+			"title":"BAM file (dorsal D)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.D.bam",
+				"description": "BAM file (dorsal D)"
+			}
+		},
+		{
+			"title":"BAM file index (dorsal D)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.D.bam.bai",
+				"description": "BAM file index(dorsal D)"
+			}
+		},
+		{
+			"title":"BAM file (dorsal E)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.E.bam",
+				"description": "BAM file (dorsal E)"
+			}
+		},
+		{
+			"title":"BAM file index (dorsal E)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.E.bam.bai",
+				"description": "BAM file index(dorsal E)"
+			}
+		},{
+			"title":"BAM file (dorsal F)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.F.bam",
+				"description": "BAM file (dorsal F)"
+			}
+		},
+		{
+			"title":"BAM file index (dorsal F)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.F.bam.bai",
+				"description": "BAM file index(dorsal F)"
+			}
+		},		
+		{
+			"title":"BAM file (lateral A)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.A.bam",
+				"description": "BAM file (lateral A)"
+			}
+		},
+		{
+			"title":"BAM file index (lateral A)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.A.bam.bai",
+				"description": "BAM file index(lateral A)"
+			}
+		},
+		{
+			"title":"BAM file (lateral B)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.B.bam",
+				"description": "BAM file (lateral B)"
+			}
+		},
+		{
+			"title":"BAM file index (lateral B)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.B.bam.bai",
+				"description": "BAM file index(lateral B)"
+			}
+		},
+		{
+			"title":"BAM file (lateral C)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.C.bam",
+				"description": "BAM file (lateral C)"
+			}
+		},
+		{
+			"title":"BAM file index (lateral C)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.C.bam.bai",
+				"description": "BAM file index(lateral C)"
+			}
+		},
+		{
+			"title":"BAM file (lateral D)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.D.bam",
+				"description": "BAM file (lateral D)"
+			}
+		},
+		{
+			"title":"BAM file index (lateral D)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.D.bam.bai",
+				"description": "BAM file index(lateral D)"
+			}
+		},
+		{
+			"title":"BAM file (lateral E)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.E.bam",
+				"description": "BAM file (lateral E)"
+			}
+		},
+		{
+			"title":"BAM file index (lateral E)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.E.bam.bai",
+				"description": "BAM file index(lateral E)"
+			}
+		},{
+			"title":"BAM file (lateral F)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.F.bam",
+				"description": "BAM file (lateral F)"
+			}
+		},
+		{
+			"title":"BAM file index (lateral F)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BAM file index"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.F.bam.bai",
+				"description": "BAM file index(lateral F)"
+			}
+		},
+		{
+			"title":"BigWig file (dorsal A)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.A.bw",
+				"description": "BigWig file for viewing in Ensembl browser (dorsal A)"
+			}
+		},
+		{
+			"title":"BigWig file (dorsal B)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.B.bw",
+				"description": "BigWig file for viewing in Ensembl browser (dorsal B)"
+			}
+		},
+		{
+			"title":"BigWig file (dorsal C)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.C.bw",
+				"description": "BigWig file for viewing in Ensembl browser (dorsal C)"
+			}
+		},
+		{
+			"title":"BigWig file (dorsal D)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.D.bw",
+				"description": "BigWig file for viewing in Ensembl browser (dorsal D)"
+			}
+		},
+		{
+			"title":"BigWig file (dorsal E)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.E.bw",
+				"description": "BigWig file for viewing in Ensembl browser (dorsal E)"
+			}
+		},
+		{
+			"title":"BigWig file (dorsal F)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.F.bw",
+				"description": "BigWig file for viewing in Ensembl browser (dorsal F)"
+			}
+		},
+		{
+			"title":"BigWig file (lateral A)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.A.bw",
+				"description": "BigWig file for viewing in Ensembl browser (lateral A)"
+			}
+		},
+		{
+			"title":"BigWig file (lateral B)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.B.bw",
+				"description": "BigWig file for viewing in Ensembl browser (lateral B)"
+			}
+		},
+		{
+			"title":"BigWig file (lateral C)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.C.bw",
+				"description": "BigWig file for viewing in Ensembl browser (lateral C)"
+			}
+		},
+		{
+			"title":"BigWig file (lateral D)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.D.bw",
+				"description": "BigWig file for viewing in Ensembl browser (lateral D)"
+			}
+		},
+		{
+			"title":"BigWig file (lateral E)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.E.bw",
+				"description": "BigWig file for viewing in Ensembl browser (lateral E)"
+			}
+		},
+		{
+			"title":"BigWig file (lateral F)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "BigWig file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.F.bw",
+				"description": "BigWig file for viewing in Ensembl browser (lateral F)"
+			}
+		},
+		{
+			"title":"FPKM files (dorsal)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "tar archive containing excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2_fpkms.tar.gz",
+				"description": "FPKM values for genes and transcripts with confidence intervals (dorsal)"
+			}
+		},
+		{
+			"title":"FPKM files (lateral)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "tar archive containing excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc_fpkms.tar.gz",
+				"description": "FPKM values for genes and transcripts with confidence intervals (lateral)"
+			}
+		},
+		{
+			"title":"Layer enrichment predicted probabilities (dorsal)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "ZIP file containing excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2_probs.zip",
+				"description": "Layer enrichment predicted probabilities (dorsal)"
+			}
+		},
+		{
+			"title":"Layer enrichment predicted probabilities (lateral)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "ZIP file containing excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc_probs.zip",
+				"description": "Layer enrichment predicted probabilities (lateral)"
+			}
+		},
+{
+			"title":"Functional terms (dorsal)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "ZIP file containing excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2_functional.zip",
+				"description": "Functional terms with contributing probabilities and p-values (dorsal)"
+			}
+		},
+		{
+			"title":"Functional terms (lateral)",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "ZIP file containing excel spreadsheet"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc_functional.zip",
+				"description": "Functional terms with contributing probabilities and p-values (lateral)"
+			}
+		},
+{
+			"title":"Genes sorted by similarity",
+			"creators": [
+				{
+					"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "TSV file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2_lc_compare.tsv",
+				"description": "Genes sorted by similarity in predicted laminar patterning (Euclidean distance)"
+			}
+		}
+
+	],
+	"extraProperties": [
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "53"
+				}
+			]
+		},
+		{
+			"category": "CONP_status",
+			"values": [
+				{
+					"value": "external"
+				}
+			]
+		}
+	]
+}
