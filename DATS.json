@@ -80,7 +80,11 @@
 		        },
 			"access": {
 				"landingPage": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers",
-				"annotation": "public"
+				"authorizations": [
+					{
+						"value": "public"
+					}
+				]
 			}
 		}
 	],
