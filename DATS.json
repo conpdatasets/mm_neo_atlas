@@ -108,6 +108,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Cell types and imprinting documentation",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/types_and_imprinting.pdf",
 				"description": "PDF containing documentation of experimental methods"
@@ -125,6 +137,18 @@
 					"information": {
 						"value": "Sequence reads in FASTA format"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Raw sequence reads",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -146,6 +170,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Layer enrichment probabilities (ENSEMBL genes)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/ens_genes_probs.xlsx",
 				"description": "Excel spreadsheet containing layer enrichment probabilities for Ensembl genes"
@@ -163,6 +199,18 @@
 					"information": {
 						"value": "Excel spreadsheet"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Layer enrichment probabilities (ENSEMBL transcripts)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -184,6 +232,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Layer enrichment probabilities (de novo Cufflinks-built genes)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/cuff_genes_probs.xlsx",
 				"description": "Excel spreadsheet containing layer enrichment probabilities for de novo cufflinks-built genes"
@@ -201,6 +261,18 @@
 					"information": {
 						"value": "Excel spreadsheet"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Layer enrichment probabilities (de novo Cufflinks-built transcripts)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -222,6 +294,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "FPKMs across all samples for all genes and transcripts",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/fpkms.zip",
 				"description": "FPKMs across all samples for all genes and transcripts"
@@ -239,6 +323,18 @@
 					"information": {
 						"value": "Zip file containing gene models in GTF format"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "de novo gene models in GTF format",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -260,6 +356,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "lincRNA gene models in GTF format",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lincrna_models.zip",
 				"description": "lincRNA gene models in GTF format"
@@ -277,6 +385,18 @@
 					"information": {
 						"value": "Zip file containing excel spreadsheet"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Functional enrichments for sets of genes predicted in layers",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -298,6 +418,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Functional differences between patterned and unpatterned genes",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/significant_patt_vs_unpatt.zip",
 				"description": "Functional differences between patterned and unpatterned genes"
@@ -315,6 +447,18 @@
 					"information": {
 						"value": "Sequence reads in FASTQ format"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Raw sequence reads (dorsal)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -336,6 +480,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Raw sequence reads (lateral)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc_fastqs.tar.gz",
 				"description": "Raw sequence reads (lateral, 17 Gb)"
@@ -353,6 +509,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (dorsal A)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -374,9 +542,21 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (dorsal A)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.A.bam.bai",
-				"description": "BAM file index(dorsal A)"
+				"description": "BAM file index (dorsal A)"
 			}
 		},
 		{
@@ -391,6 +571,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (dorsal B)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -412,6 +604,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (dorsal B)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.B.bam.bai",
 				"description": "BAM file index(dorsal B)"
@@ -429,6 +633,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (dorsal C)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -450,6 +666,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (dorsal C)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.C.bam.bai",
 				"description": "BAM file index(dorsal C)"
@@ -467,6 +695,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (dorsal D)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -488,6 +728,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (dorsal D)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.D.bam.bai",
 				"description": "BAM file index(dorsal D)"
@@ -505,6 +757,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (dorsal E)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -526,11 +790,24 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (dorsal E)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.E.bam.bai",
 				"description": "BAM file index(dorsal E)"
 			}
-		},{
+		},
+		{
 			"title":"BAM file (dorsal F)",
 			"creators": [
 				{
@@ -542,6 +819,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (dorsal F)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -563,6 +852,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (dorsal F)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.F.bam.bai",
 				"description": "BAM file index(dorsal F)"
@@ -580,6 +881,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (lateral A)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -601,6 +914,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (lateral A)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.A.bam.bai",
 				"description": "BAM file index(lateral A)"
@@ -618,6 +943,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (lateral B)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -639,9 +976,21 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (lateral B)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.B.bam.bai",
-				"description": "BAM file index(lateral B)"
+				"description": "BAM file index (lateral B)"
 			}
 		},
 		{
@@ -656,6 +1005,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (lateral C)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -677,6 +1038,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (lateral C)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.C.bam.bai",
 				"description": "BAM file index(lateral C)"
@@ -694,6 +1067,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (lateral D)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -715,6 +1100,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (lateral D)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.D.bam.bai",
 				"description": "BAM file index(lateral D)"
@@ -732,6 +1129,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (lateral E)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -753,11 +1162,24 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (lateral E)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.E.bam.bai",
 				"description": "BAM file index(lateral E)"
 			}
-		},{
+		},
+		{
 			"title":"BAM file (lateral F)",
 			"creators": [
 				{
@@ -769,6 +1191,18 @@
 					"information": {
 						"value": "BAM file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file (lateral F)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -790,6 +1224,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BAM file index (lateral F)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.F.bam.bai",
 				"description": "BAM file index(lateral F)"
@@ -807,6 +1253,18 @@
 					"information": {
 						"value": "BigWig file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (dorsal A)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -828,6 +1286,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (dorsal B)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.B.bw",
 				"description": "BigWig file for viewing in Ensembl browser (dorsal B)"
@@ -845,6 +1315,18 @@
 					"information": {
 						"value": "BigWig file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (dorsal C)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -866,6 +1348,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (dorsal D)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.D.bw",
 				"description": "BigWig file for viewing in Ensembl browser (dorsal D)"
@@ -883,6 +1377,18 @@
 					"information": {
 						"value": "BigWig file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (dorsal E)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -904,6 +1410,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (dorsal F)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/dc2.F.bw",
 				"description": "BigWig file for viewing in Ensembl browser (dorsal F)"
@@ -921,6 +1439,18 @@
 					"information": {
 						"value": "BigWig file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (lateral A)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -942,6 +1472,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (lateral B)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.B.bw",
 				"description": "BigWig file for viewing in Ensembl browser (lateral B)"
@@ -959,6 +1501,18 @@
 					"information": {
 						"value": "BigWig file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (lateral C)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -980,6 +1534,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (lateral D)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.D.bw",
 				"description": "BigWig file for viewing in Ensembl browser (lateral D)"
@@ -997,6 +1563,18 @@
 					"information": {
 						"value": "BigWig file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (lateral E)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1018,6 +1596,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "BigWig file (lateral F)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc.F.bw",
 				"description": "BigWig file for viewing in Ensembl browser (lateral F)"
@@ -1035,6 +1625,18 @@
 					"information": {
 						"value": "tar archive containing excel spreadsheet"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "FPKM files (dorsal)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1056,6 +1658,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "FPKM files (lateral)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc_fpkms.tar.gz",
 				"description": "FPKM values for genes and transcripts with confidence intervals (lateral)"
@@ -1073,6 +1687,18 @@
 					"information": {
 						"value": "ZIP file containing excel spreadsheet"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Layer enrichment predicted probabilities (dorsal)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1094,6 +1720,18 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Layer enrichment predicted probabilities (lateral)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc_probs.zip",
 				"description": "Layer enrichment predicted probabilities (lateral)"
@@ -1111,6 +1749,18 @@
 					"information": {
 						"value": "ZIP file containing excel spreadsheet"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Functional terms (dorsal)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1132,12 +1782,24 @@
 					}
 				}
 			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Functional terms (lateral)",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "http://wwwfgu.anat.ox.ac.uk/~grantb/mouse_layers/lc_functional.zip",
 				"description": "Functional terms with contributing probabilities and p-values (lateral)"
 			}
 		},
-{
+		{
 			"title":"Genes sorted by similarity",
 			"creators": [
 				{
@@ -1149,6 +1811,18 @@
 					"information": {
 						"value": "TSV file"
 					}
+				}
+			],
+			"keywords": [
+				{
+					"value" : "transcriptomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Genes sorted by similarity",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
