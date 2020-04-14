@@ -6,6 +6,7 @@
 	"version": "1.0",
 	"privacy": "public open",
 	"licenses": [
+		{
 			"name": "BY-NC-SA"
 		}
 	],
