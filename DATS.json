@@ -6,13 +6,46 @@
 	"version": "1.0",
 	"privacy": "public open",
 	"licenses": [
-		{
 			"name": "BY-NC-SA"
 		}
 	],
 	"creators": [
 		{
-			"name": "T. Grant Belgard, Ana C. Marques, Peter L. Oliver, Hatice Ozel Abaan, Tamara M. Sirey, Anna Hoerder-Suabedissen, Fernando García-Moreno, Zoltán Molnár, Elliott H. Margulies and Chris P. Ponting"
+			"name": "T. Grant Belgard"
+		},
+		{
+			"name": "Ana C. Marques"
+		},
+		{
+			"name": "Peter L. Oliver"
+		},
+		{
+			"name": "Hatice Ozel Abaan"
+		},
+		{
+			"name": "Tamara M. Sirey"
+		},
+		{
+			"name": "Anna Hoerder-Suabedissen"
+		},
+		{
+			"name": "Fernando García-Moreno"
+		},
+		{
+			"name": "Zoltán Molnár"
+		},
+		{
+			"name": "Elliott H. Margulies"
+		},
+		{
+			"name": "Chris P. Ponting",
+			"roles": [
+				{
+					"information": {
+						"value": "Principal Investigator"
+					}
+				}
+			]
 		}
 	],
 	"types": [
