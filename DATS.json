@@ -198,10 +198,7 @@
 			"distributions": [
 	        	{
 					"formats": [
-						"FASTQ",
-						".TSV",
-						"BAM",
-						"BigWig"
+						"FASTQ"
             		],
 					"size" : 46.4,
 			        "unit" : {
