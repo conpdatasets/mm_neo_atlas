@@ -2298,7 +2298,7 @@
 			],
 			"distributions": [
 	    	    {
-					"formats": [,
+					"formats": [
 						"BigWig"
             		],
 					"size" : 889,
