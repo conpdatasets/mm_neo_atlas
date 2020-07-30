@@ -164,6 +164,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "Cell types and imprinting documentation",
 			"licenses": [
@@ -212,6 +248,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -264,6 +336,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "Layer enrichment probabilities (ENSEMBL genes)",
 			"licenses": [
@@ -312,6 +420,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -364,6 +508,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "Layer enrichment probabilities (de novo Cufflinks-built genes)",
 			"licenses": [
@@ -412,6 +592,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -464,6 +680,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "FPKMs across all samples for all genes and transcripts",
 			"licenses": [
@@ -512,6 +764,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -564,6 +852,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "lincRNA gene models in GTF format",
 			"licenses": [
@@ -612,6 +936,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -664,6 +1024,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "Functional differences between patterned and unpatterned genes",
 			"licenses": [
@@ -712,6 +1108,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -764,6 +1196,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "Raw sequence reads (lateral)",
 			"licenses": [
@@ -812,6 +1280,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -864,6 +1368,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file index (dorsal A)",
 			"licenses": [
@@ -914,6 +1454,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file (dorsal B)",
 			"licenses": [
@@ -962,6 +1538,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -1015,6 +1627,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file (dorsal C)",
 			"licenses": [
@@ -1063,6 +1711,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -1115,6 +1799,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file (dorsal D)",
 			"licenses": [
@@ -1163,6 +1883,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -1215,6 +1971,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file (dorsal E)",
 			"licenses": [
@@ -1263,6 +2055,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -1315,6 +2143,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file (dorsal F)",
 			"licenses": [
@@ -1363,6 +2227,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -1415,6 +2315,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file (lateral A)",
 			"licenses": [
@@ -1463,6 +2399,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -1515,6 +2487,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file (lateral B)",
 			"licenses": [
@@ -1563,6 +2571,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -1615,6 +2659,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file (lateral C)",
 			"licenses": [
@@ -1663,6 +2743,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -1715,6 +2831,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file (lateral D)",
 			"licenses": [
@@ -1763,6 +2915,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -1815,6 +3003,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file (lateral E)",
 			"licenses": [
@@ -1863,6 +3087,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -1915,6 +3175,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BAM file (lateral F)",
 			"licenses": [
@@ -1963,6 +3259,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -2015,6 +3347,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BigWig file (dorsal A)",
 			"licenses": [
@@ -2063,6 +3431,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -2115,6 +3519,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BigWig file (dorsal C)",
 			"licenses": [
@@ -2163,6 +3603,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -2215,6 +3691,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BigWig file (dorsal E)",
 			"licenses": [
@@ -2263,6 +3775,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -2315,6 +3863,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BigWig file (lateral A)",
 			"licenses": [
@@ -2363,6 +3947,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -2415,6 +4035,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BigWig file (lateral C)",
 			"licenses": [
@@ -2463,6 +4119,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -2515,6 +4207,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "BigWig file (lateral E)",
 			"licenses": [
@@ -2563,6 +4291,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -2615,6 +4379,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "FPKM files (dorsal)",
 			"licenses": [
@@ -2663,6 +4463,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -2715,6 +4551,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "Layer enrichment predicted probabilities (dorsal)",
 			"licenses": [
@@ -2763,6 +4635,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -2815,6 +4723,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "Functional terms (dorsal)",
 			"licenses": [
@@ -2863,6 +4807,42 @@
 							}
 						]
 					}
+				}
+			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
 				}
 			],
 			"version": "1.0",
@@ -2915,6 +4895,42 @@
 					}
 				}
 			],
+			"extraProperties": [
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value":8,
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"institution": "Oxford University",
+							"city": "Oxford",
+							"country": "United Kingdom"
+						}
+					]
+				}
+			],
 			"version": "1.0",
 			"description": "Genes sorted by similarity",
 			"licenses": [
@@ -2943,6 +4959,24 @@
 			"values": [
 				{
 					"value": "external"
+				}
+			]
+		},
+		{
+			"category": "subjects",
+			"values": [
+				{
+					"value":8,
+				}
+			]
+		},
+		{
+			"category": "origin",
+			"values": [
+				{
+					"institution": "Oxford University",
+					"city": "Oxford",
+					"country": "United Kingdom"
 				}
 			]
 		}
