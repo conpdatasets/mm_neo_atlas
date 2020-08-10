@@ -2192,12 +2192,26 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_institution",
 					"values": [
 						{
-							"institution": "Oxford University",
-							"city": "Oxford",
-							"country": "United Kingdom"
+							"value": "Oxford University"
+						}
+					]
+				},
+				{
+					"category": "origin_city",
+					"values": [
+						{
+							"value": "Oxford"
+						}
+					]
+				},
+				{
+					"category": "origin_country",
+					"values": [
+						{
+							"value": "United Kingdom"
 						}
 					]
 				}
@@ -3478,15 +3492,30 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_institution",
 					"values": [
 						{
-							"institution": "Oxford University",
-							"city": "Oxford",
-							"country": "United Kingdom"
+							"value": "Oxford University"
+						}
+					]
+				},
+				{
+					"category": "origin_city",
+					"values": [
+						{
+							"value": "Oxford"
+						}
+					]
+				},
+				{
+					"category": "origin_country",
+					"values": [
+						{
+							"value": "United Kingdom"
 						}
 					]
 				}
+
 			],
 			"version": "1.0",
 			"description": "BAM file (lateral E)",
