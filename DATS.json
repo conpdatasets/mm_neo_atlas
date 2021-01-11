@@ -101,10 +101,10 @@
 	        {
 			"formats": [
 				"FASTQ",
-				".GTF",
-				".TSV",
+				"GTF",
+				"TSV",
 				"BAM",
-				"BigWig"
+				"bigWig"
             ],
 			"size" : 140,
 		    "unit" : {
@@ -148,7 +148,7 @@
 			"distributions": [
 	        	{
 					"formats": [
-						".pdf"
+						"PDF"
             		],
 					"size" : 4,
 			        "unit" : {
@@ -349,7 +349,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 1.5,
 			        "unit" : {
@@ -449,7 +449,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 2.8,
 			        "unit" : {
@@ -549,7 +549,7 @@
 			"distributions": [
 	        	{
 					"formats": [
-						".xls"
+						"XLS"
 	           		],
 					"size" : 3.9,
 		       		"unit" : {
@@ -649,7 +649,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 6.3,
 			        "unit" : {
@@ -749,7 +749,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 18.2,
 			        "unit" : {
@@ -849,7 +849,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".GTF"
+						"GTF"
             		],
 					"size" : 52.9,
 		        	"unit" : {
@@ -949,7 +949,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".GTF"
+						"GTF"
             		],
 					"size" : 866,
 			        "unit" : {
@@ -1049,7 +1049,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 91,
 			        "unit" : {
@@ -1149,7 +1149,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 158,
 			        "unit" : {
@@ -1850,7 +1850,7 @@
 	    	    {
 					"formats": [
 						"BAM",
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 3.0,
 			        "unit" : {
@@ -3851,7 +3851,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 761,
 		        	"unit" : {
@@ -3951,7 +3951,7 @@
 			"distributions": [
 		        {
 					"formats": [
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 1.0,
 			        "unit" : {
@@ -4051,7 +4051,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						"BigWig"
+						"bigWig"
         		    ],
 					"size" : 846,
 		        	"unit" : {
@@ -4151,7 +4151,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 910,
 			        "unit" : {
@@ -4251,7 +4251,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 1.5,
 		        	"unit" : {
@@ -4351,7 +4351,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 554,
 			        "unit" : {
@@ -4451,7 +4451,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 889,
 		        	"unit" : {
@@ -4551,7 +4551,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 1.0,
 		        	"unit" : {
@@ -4651,7 +4651,7 @@
 			"distributions": [
 		        {
 					"formats": [
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 835,
 		        	"unit" : {
@@ -4751,7 +4751,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 852,
 		        	"unit" : {
@@ -4851,7 +4851,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 665,
 		        	"unit" : {
@@ -4951,7 +4951,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						"BigWig"
+						"bigWig"
             		],
 					"size" : 687,
 			        "unit" : {
@@ -5051,7 +5051,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 22,
 			        "unit" : {
@@ -5151,7 +5151,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 21.8,
 			        "unit" : {
@@ -5251,7 +5251,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 169,
 		        	"unit" : {
@@ -5351,7 +5351,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 168,
 		        	"unit" : {
@@ -5451,7 +5451,7 @@
 			"distributions": [
 	        	{
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 3.5,
 		        	"unit" : {
@@ -5551,7 +5551,7 @@
 			"distributions": [
 	    	    {
 					"formats": [
-						".xls"
+						"XLS"
             		],
 					"size" : 3.5,
 			        "unit" : {
@@ -5651,7 +5651,7 @@
 			"distributions": [
 		        {
 					"formats": [
-						".TSV"
+						"TSV"
             		],
 					"size" : 1.2,
 			        "unit" : {
